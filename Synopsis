@@ -1,0 +1,81 @@
+# SYNOPSIS
+
+## Project Title
+**Vehicle Rental System**
+
+## Introduction
+The **Vehicle Rental System** is a responsive frontend web application developed using **HTML, CSS, and JavaScript**. It provides an easy and interactive platform for users to browse, search, filter, and book rental vehicles such as cars and bikes. The project focuses on delivering a user-friendly interface while demonstrating essential frontend development concepts, including DOM manipulation, responsive web design, form validation, and browser Local Storage.
+
+## Problem Statement
+Traditional vehicle rental processes can be time-consuming and inconvenient. Customers often need to visit rental offices or use complex booking systems. This project aims to simplify the rental process by providing an online platform where users can easily explore available vehicles, compare options, and complete bookings efficiently.
+
+## Objectives
+- Develop a responsive and interactive vehicle rental website.
+- Allow users to browse, search, and filter available vehicles.
+- Display complete vehicle details and rental prices.
+- Calculate rental costs based on booking duration.
+- Store booking information using Local Storage.
+- Demonstrate practical implementation of HTML, CSS, and JavaScript.
+
+## Scope of the Project
+The project provides a frontend solution for vehicle rental management. Users can view available vehicles, search and filter them based on their preferences, view detailed specifications, calculate rental charges, and simulate the booking process. All booking information is stored locally in the browser without using a backend database.
+
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Browser Local Storage
+- Visual Studio Code
+
+## Modules
+1. Home Page
+2. Login & Signup
+3. Vehicle Listing
+4. Vehicle Details
+5. Search & Filter
+6. Booking System
+7. Wishlist
+8. Booking History
+9. Contact Page
+
+## Features
+- Responsive user interface
+- Vehicle search and filtering
+- Detailed vehicle information
+- Rental cost calculator
+- Booking simulation
+- Wishlist management
+- Booking history
+- Form validation
+- Local Storage support
+- Mobile-friendly design
+
+## Project Workflow
+1. User opens the website.
+2. User browses or searches available vehicles.
+3. User views vehicle details.
+4. User selects pickup and return dates.
+5. The system calculates the rental amount automatically.
+6. User confirms the booking.
+7. Booking details are stored in Local Storage.
+8. User can view booking history and wishlist anytime.
+
+## Expected Outcome
+The Vehicle Rental System provides a simple, efficient, and interactive platform for renting vehicles online. 
+It demonstrates core frontend development skills such as responsive design, JavaScript-based interactivity, DOM manipulation, event handling,
+and client-side data storage, making it an excellent portfolio project.
+
+## Future Enhancements
+- Backend integration (Node.js/Express)
+- Database support (MySQL/MongoDB)
+- Online payment gateway
+- Real-time vehicle availability
+- User authentication
+- Admin dashboard
+- GPS-based pickup and drop-off
+- Email and SMS notifications
+
+## Conclusion
+The Vehicle Rental System is a modern frontend web application that simplifies the vehicle booking process through an attractive 
+and responsive interface. It effectively showcases the use of HTML, CSS, and JavaScript to build a real-world application while providing a 
+strong foundation for future full-stack development.
