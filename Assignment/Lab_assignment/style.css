@@ -1,0 +1,270 @@
+/* ---------- Basic Setup ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* ---------- Header ---------- */
+header {
+  background-color: #0d2657;
+  color: white;
+  padding: 18px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.logo p {
+  font-size: 14px;
+  color: #e0e6f2;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 28px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+nav a:hover {
+  color: #ffd633;
+}
+
+nav a.active {
+  color: #ffd633;
+  border-bottom: 3px solid #ffd633;
+  padding-bottom: 5px;
+}
+
+/* ---------- Hero Section ---------- */
+.hero {
+  background-color: #e8f1fd;
+  padding: 50px 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.hero-text {
+  max-width: 450px;
+}
+
+.hero-text h2 {
+  font-size: 36px;
+  color: #0b2559;
+}
+
+.hero-text h3 {
+  font-size: 22px;
+  color: #1a56c4;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+}
+
+.hero-image img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 8px solid white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-block;
+  background-color: #0b2559;
+  color: white;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background-color: #1a56c4;
+}
+
+.btn.grey {
+  background-color: #d9d9d9;
+  color: #333;
+}
+
+.btn.grey:hover {
+  background-color: #bdbdbd;
+}
+
+/* ---------- Sections ---------- */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px;
+}
+
+.col {
+  flex: 1;
+  min-width: 280px;
+}
+
+.col.wide {
+  flex: 2;
+}
+
+.col h2 {
+  color: #0b2559;
+  font-size: 22px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.col h2 svg {
+  width: 22px;
+  height: 22px;
+  color: #1a56c4;
+  flex-shrink: 0;
+}
+
+.col.wide h2,
+h2.connect {
+  margin-top: 0;
+}
+
+h2.connect {
+  margin-top: 30px;
+}
+
+#skills ul {
+  margin-left: 20px;
+}
+
+/* ---------- Education Table ---------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #bbb;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* ---------- Project Card ---------- */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 15px;
+  max-width: 320px;
+}
+
+.card h4 {
+  color: #0b2559;
+  margin-bottom: 8px;
+}
+
+.card a,
+#projects p a {
+  color: #1a56c4;
+  text-decoration: none;
+}
+
+.card a:hover,
+#projects p a:hover {
+  text-decoration: underline;
+}
+
+.card p {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+/* ---------- Social Buttons ---------- */
+.social {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 18px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.icon-btn.github {
+  background-color: #24292e;
+}
+
+.icon-btn.gmail {
+  background-color: #d93025;
+}
+
+.icon-btn:hover {
+  opacity: 0.85;
+}
+
+/* ---------- Contact Form ---------- */
+form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+form button {
+  margin-top: 15px;
+  margin-right: 8px;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  background-color: #0d2657;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  font-size: 15px;
+}
