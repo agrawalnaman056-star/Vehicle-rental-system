@@ -1,0 +1,245 @@
+Q1. Create webpage to display student’s marksheet using table tag
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marksheet</title>
+</head>
+<body>
+
+<h1>Student Marksheet</h1>
+
+<table border="1">
+    <tr>
+        <th>Subject</th>
+        <th>Marks</th>
+    </tr>
+
+    <tr>
+        <td>HTML</td>
+        <td>85</td>
+    </tr>
+
+    <tr>
+        <td>CSS</td>
+        <td>80</td>
+    </tr>
+
+    <tr>
+        <td>JavaScript</td>
+        <td>75</td>
+    </tr>
+
+    <tr>
+        <td>Python</td>
+        <td>90</td>
+    </tr>
+
+    <tr>
+        <th>Total</th>
+        <th>330</th>
+    </tr>
+</table>
+
+</body>
+</html>
+
+
+Q2. Create a webpage to display a resume
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Resume</title>
+</head>
+<body>
+
+<h1>My Resume</h1>
+
+<h2>Personal Information</h2>
+<p>Name: Tushar</p>
+<p>Email: agrawalnaman056@gmail.com</p>
+<p>Phone: 9452872490</p>
+
+<h2>Education</h2>
+
+<table border="1">
+    <tr>
+        <th>Course</th>
+        <th>College</th>
+        <th>Year</th>
+    </tr>
+
+    <tr>
+        <td>B.Tech CSE</td>
+        <td>ABC College</td>
+        <td>2026</td>
+    </tr>
+
+    <tr>
+        <td>12th</td>
+        <td>XYZ School</td>
+        <td>2024</td>
+    </tr>
+</table>
+
+<h2>Skills</h2>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>C++</li>
+</ul>
+
+<h2>Hobbies</h2>
+<ul>
+    <li>Gym</li>
+    <li>Sports</li>
+    <li>Coding</li>
+</ul>
+
+</body>
+</html>
+
+
+
+Q3. Create a menu of a restaurant using list
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Menu</title>
+</head>
+<body>
+
+<h1>My Restaurant</h1>
+
+<h2>Starters</h2>
+<ul>
+    <li>French Fries - Rs. 100</li>
+    <li>Spring Roll - Rs. 120</li>
+    <li>Paneer Tikka - Rs. 180</li>
+</ul>
+
+<h2>Main Course</h2>
+<ul>
+    <li>Paneer Butter Masala - Rs. 200</li>
+    <li>Dal Makhani - Rs. 150</li>
+    <li>Veg Biryani - Rs. 180</li>
+</ul>
+
+<h2>Drinks</h2>
+<ul>
+    <li>Cold Drink - Rs. 50</li>
+    <li>Fresh Juice - Rs. 80</li>
+    <li>Milkshake - Rs. 100</li>
+</ul>
+
+<h2>Desserts</h2>
+<ul>
+    <li>Ice Cream - Rs. 80</li>
+    <li>Gulab Jamun - Rs. 70</li>
+</ul>
+
+</body>
+</html>
+
+
+
+
+Q4. Create a registration form
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+<h1>Registration Form</h1>
+
+<form>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <br><br>
+
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+
+    <br><br>
+
+    <label>Skills:</label>
+
+    <input type="checkbox" id="html" name="skill">
+    <label for="html">HTML</label>
+
+    <input type="checkbox" id="css" name="skill">
+    <label for="css">CSS</label>
+
+    <input type="checkbox" id="js" name="skill">
+    <label for="js">JavaScript</label>
+
+    <br><br>
+
+    <label for="course">Select Course:</label>
+
+    <select id="course" name="course">
+        <option value="cse">CSE</option>
+        <option value="aiml">CSE AIML</option>
+        <option value="ece">ECE</option>
+    </select>
+
+    <br><br>
+
+    <input type="submit" value="Register">
+
+</form>
+
+</body>
+</html>
+
+
+
+
+Q5. Create a login page
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+</head>
+<body>
+
+<h1>Login</h1>
+
+<form>
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+
+    <br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+
+    <br><br>
+
+    <input type="submit" value="Login">
+
+</form>
+
+</body>
+</html>
